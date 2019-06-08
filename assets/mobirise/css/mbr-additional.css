@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Lobster:400);
 @import url(https://fonts.googleapis.com/css?family=Pacifico:400);
-@import url(https://fonts.googleapis.com/css?family=Indie+Flower:400);
+@import url(https://fonts.googleapis.com/css?family=Shadows+Into+Light:400);
 @import url(https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i);
 
 
@@ -31,10 +31,10 @@ body {
 }
 .display-2 {
   font-family: 'Pacifico', handwriting;
-  font-size: 2rem;
+  font-size: 1rem;
 }
 .display-2 > .mbr-iconfont {
-  font-size: 3.2rem;
+  font-size: 1.6rem;
 }
 .display-4 {
   font-family: 'Rubik', sans-serif;
@@ -44,7 +44,7 @@ body {
   font-size: 1.6rem;
 }
 .display-5 {
-  font-family: 'Indie Flower', handwriting;
+  font-family: 'Shadows Into Light', handwriting;
   font-size: 2.5rem;
 }
 .display-5 > .mbr-iconfont {
@@ -69,9 +69,9 @@ body {
     line-height: calc( 1.4 * (1.42rem + (2.2 - 1.42) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-2 {
-    font-size: 1.6rem;
-    font-size: calc( 1.35rem + (2 - 1.35) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.35rem + (2 - 1.35) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 0.8rem;
+    font-size: calc( 1rem + (1 - 1) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1rem + (1 - 1) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-4 {
     font-size: 0.8rem;
@@ -1624,26 +1624,128 @@ body {
     display: block;
   }
 }
-.cid-rsNfIsN2CX {
+.cid-rsP8NatIif {
   padding-top: 0px;
-  padding-bottom: 0px;
-  background-color: #55b4d4;
+  padding-bottom: 15px;
+  background-image: url("../../../assets/images/background5.jpg");
 }
-.cid-rsNfIsN2CX .title {
-  margin-bottom: 2rem;
+.cid-rsP8NatIif h2 {
+  text-align: center;
 }
-.cid-rsNfIsN2CX .mbr-section-subtitle {
+.cid-rsP8NatIif h3 {
+  text-align: center;
+  font-weight: 300;
+}
+.cid-rsP8NatIif p {
   color: #767676;
 }
-.cid-rsNfIsN2CX a:not([href]):not([tabindex]) {
-  color: #fff;
-  border-radius: 3px;
+.cid-rsP8NatIif img {
+  object-fit: cover;
 }
-.cid-rsNfIsN2CX a.btn-white:not([href]):not([tabindex]) {
+.cid-rsP8NatIif .block-content {
+  display: -webkit-flex;
+  flex-direction: column;
+  -webkit-flex-direction: column;
+  flex-basis: 100%;
+  -webkit-flex-basis: 100%;
+}
+.cid-rsP8NatIif .mbr-figure {
+  align-self: flex-start;
+  -webkit-align-self: flex-start;
+  flex-shrink: 0;
+  -webkit-flex-shrink: 0;
+}
+.cid-rsP8NatIif .media-container-row {
+  word-wrap: break-word;
+  word-break: break-word;
+}
+.cid-rsP8NatIif .mbr-section-subtitle {
+  color: #767676;
+}
+.cid-rsP8NatIif .card-title {
+  font-weight: 500;
+}
+.cid-rsP8NatIif .card-img {
+  text-align: inherit;
+}
+.cid-rsP8NatIif .card-img span {
+  font-size: 48px;
+  color: #707070;
+}
+@media (min-width: 992px) {
+  .cid-rsP8NatIif .mbr-figure {
+    padding-right: 2rem;
+    padding-left: 2rem;
+    height: 100%;
+  }
+}
+@media (max-width: 991px) {
+  .cid-rsP8NatIif .mbr-figure {
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+  }
+}
+@media (max-width: 991px) and (min-width: 768px) {
+  .cid-rsP8NatIif .block-content {
+    flex-direction: row;
+    -webkit-flex-direction: row;
+    text-align: center;
+  }
+  .cid-rsP8NatIif .block-content .card {
+    flex-basis: 100%;
+    -webkit-flex-basis: 100%;
+  }
+  .cid-rsP8NatIif .card:nth-child(1) {
+    padding-bottom: 0!important;
+  }
+}
+.cid-rsP8NatIif .mbr-section-text {
+  color: #232323;
+}
+.cid-rsPamiSJCm {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-image: url("../../../assets/images/background1.jpg");
+}
+.cid-rsPamiSJCm .mbr-section-subtitle {
+  color: #767676;
+}
+.cid-rsPamiSJCm .formoid {
+  margin: auto;
+}
+.cid-rsPamiSJCm .form-control {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+.cid-rsPamiSJCm .input-group-btn .btn {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin: 0 !important;
+}
+.cid-rsPamiSJCm a:not([href]):not([tabindex]) {
+  color: #fff;
+}
+.cid-rsPamiSJCm a.btn-white:not([href]):not([tabindex]) {
   color: #333;
 }
-.cid-rsNfIsN2CX textarea.form-control {
-  min-height: 188px;
+@media (max-width: 768px) {
+  .cid-rsPamiSJCm .mbr-form .row {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  .cid-rsPamiSJCm .form-group,
+  .cid-rsPamiSJCm .input-group-btn,
+  .cid-rsPamiSJCm .input-group-btn .btn {
+    max-width: 300px;
+    width: 100%;
+  }
+}
+@media (min-width: 769px) {
+  .cid-rsPamiSJCm .mbr-form .row > * {
+    padding: 0 0.5rem;
+  }
 }
 .cid-rsMYmXfAXN {
   padding-top: 90px;
